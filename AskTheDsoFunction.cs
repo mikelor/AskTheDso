@@ -23,7 +23,7 @@ namespace AlaskaAir.AskTheDso
 
             if (req.Request is LaunchRequest)
             {
-                return new OkObjectResult(ResponseBuilder.Tell("you launched from method param"));
+                return new OkObjectResult(ResponseBuilder.Tell("Hi, you launched from method param"));
             }
 
             return new OkObjectResult(ResponseBuilder.Empty());;
